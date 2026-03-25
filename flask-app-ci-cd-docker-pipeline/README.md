@@ -1,4 +1,4 @@
-# CI/CD Pipeline for Flask App with Docker
+# Flask Application CI/CD Pipeline with Docker Deployment
 
 ## Overview
 This project demonstrates a **complete CI/CD pipeline** for a Flask web application using **Docker** and **GitHub Actions**.  
