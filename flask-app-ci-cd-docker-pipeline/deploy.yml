@@ -1,19 +1,26 @@
-name: CI/CD Pipeline
+name: Flask CI/CD Pipeline
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  build-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: 3.11
+
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Build Docker Image
+
+      - name: Build Docker image
         run: docker build -t flask-app .
+
+      - name: (Optional) Push Docker image
+        run: echo "Add your Docker push commands here"
