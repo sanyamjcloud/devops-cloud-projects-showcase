@@ -1,50 +1,73 @@
 # DevOps & Cloud Projects Showcase
 
 ## Overview
-This repository contains a curated collection of hands-on projects demonstrating practical skills in Cloud Computing, DevOps practices, and system automation. The projects are designed to simulate production-oriented workflows, emphasizing infrastructure setup, automation, deployment pipelines, and monitoring.
+This repository presents a focused collection of hands-on projects demonstrating practical implementation of DevOps workflows, containerization, monitoring, and system reliability.
+
+Each project reflects real-world use cases involving deployment pipelines, observability, and resilient infrastructure design.
 
 ---
 
-## How to Explore
-1. Click on any project folder below.  
-2. Open the project’s README for setup instructions, workflow explanation, and execution proof.  
-3. For deployed applications, live URLs (if available) are provided within the project README.  
+## Projects
+
+### 1. Flask Application CI/CD Pipeline with Docker
+- **Repository:** [flask-app-ci-cd-docker-pipeline](./flask-app-ci-cd-docker-pipeline)  
+- **Description:**  
+  Designed and implemented an end-to-end CI/CD pipeline for a Flask application. The workflow automates code integration, Docker image creation, and deployment processes.
+
+- **Key Concepts:**
+  - CI/CD using GitHub Actions  
+  - Docker-based containerization  
+  - Automated build workflows  
+  - Application deployment on Linux environment  
 
 ---
 
-## Project Categories
+### 2. Monitoring Stack using Prometheus and Grafana
+- **Repository:** [monitoring-stack-prometheus-grafana](./monitoring-stack-prometheus-grafana)  
+- **Description:**  
+  Built a monitoring and observability stack using Prometheus for metrics collection and Grafana for visualization, enabling real-time system performance tracking.
 
-### DevOps & CI/CD
-- [flask-app-ci-cd-docker-pipeline](./flask-app-ci-cd-docker-pipeline) — End-to-end pipeline for a Flask application with Docker containerization and automated deployment using GitHub Actions.  
-- [python-devops-automation](./python-devops-automation) — Automating system tasks, backups, file operations, and process management using Python scripts.  
-
-### Monitoring & Reliability
-- [self-healing-docker-nginx-setup](./self-healing-docker-nginx-setup) — Create self-healing infrastructure using Docker containers and Nginx for high availability.
-
----
-
-## Featured Project
-
-### Flask Application CI/CD Pipeline with Docker Deployment
-- End-to-end CI/CD workflow: Code push → Docker build → Automated deployment on AWS EC2.  
-- Technologies: Flask, Docker, GitHub Actions, AWS EC2, Gunicorn.  
-- Live Deployment: `http://<your-ec2-ip>` (replace with your instance URL)  
+- **Key Concepts:**
+  - Metrics collection with Prometheus  
+  - Dashboard visualization using Grafana  
+  - System performance monitoring  
+  - Observability practices  
 
 ---
 
-## Key Skills Demonstrated
-- CI/CD pipeline creation using GitHub Actions  
-- Containerization with Docker and deployment strategies  
-- Linux system operations and shell scripting  
-- Automation of system tasks with Python  
-- Self-healing infrastructure setup for reliability  
+### 3. Self-Healing Infrastructure using Docker and Nginx
+- **Repository:** [self-healing-docker-nginx-setup](./self-healing-docker-nginx-setup)  
+- **Description:**  
+  Implemented a self-healing system using Docker containers and Nginx to ensure service availability. The setup automatically recovers from container failures.
+
+- **Key Concepts:**
+  - Container orchestration basics  
+  - High availability architecture  
+  - Nginx as reverse proxy  
+  - Fault tolerance and recovery mechanisms  
+
+---
+
+## Technical Skills Demonstrated
+- CI/CD pipeline design and automation  
+- Containerization using Docker  
+- Monitoring and observability (Prometheus, Grafana)  
+- Linux-based system operations  
+- High availability and fault-tolerant system design  
 
 ---
 
 ## Purpose
-The purpose of this repository is to **showcase practical implementation skills** rather than theoretical knowledge. Each project is structured for clarity, reproducibility, and real-world applicability. This collection demonstrates readiness for internships or full-time roles in Cloud and DevOps engineering.
+This repository is structured to demonstrate practical, deployment-oriented skills aligned with real DevOps workflows. The focus is on implementation, automation, and system reliability rather than theoretical concepts.
+
+---
+
+## How to Use
+- Navigate to any project repository above  
+- Review the README for setup steps and execution details  
+- Explore code and configurations to understand implementation  
 
 ---
 
 ## Topics
-`devops`, `cloud`, `docker`, `cicd`, `automation`, `linux`
+`devops`, `docker`, `cicd`, `monitoring`, `prometheus`, `grafana`, `nginx`, `automation`, `linux`
