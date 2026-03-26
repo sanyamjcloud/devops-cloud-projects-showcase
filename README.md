@@ -14,18 +14,11 @@ This repository contains a curated collection of hands-on projects demonstrating
 
 ## Project Categories
 
-### Cloud Engineering
-- [aws-ec2-linux-instance-setup](./aws-ec2-linux-instance-setup) — Provision and configure Linux servers on AWS EC2.  
-- [aws-ebs-volume-management](./aws-ebs-volume-management) — Manage AWS block storage and attach volumes to EC2 instances.  
-- [aws-s3-region-configuration-validation](./aws-s3-region-configuration-validation) — Validate S3 bucket region configuration and permissions.  
-- [aws-ec2-launch-template-deployment](./aws-ec2-launch-template-deployment) — Deploy EC2 instances using launch templates for scalable infrastructure.
-
 ### DevOps & CI/CD
 - [flask-app-ci-cd-docker-pipeline](./flask-app-ci-cd-docker-pipeline) — End-to-end pipeline for a Flask application with Docker containerization and automated deployment using GitHub Actions.  
 - [python-devops-automation](./python-devops-automation) — Automating system tasks, backups, file operations, and process management using Python scripts.  
 
 ### Monitoring & Reliability
-- [system-monitoring-logging-setup](./system-monitoring-logging-setup) — Implement monitoring with logging, metrics, and visualization for system health.  
 - [self-healing-docker-nginx-setup](./self-healing-docker-nginx-setup) — Create self-healing infrastructure using Docker containers and Nginx for high availability.
 
 ---
@@ -36,17 +29,15 @@ This repository contains a curated collection of hands-on projects demonstrating
 - End-to-end CI/CD workflow: Code push → Docker build → Automated deployment on AWS EC2.  
 - Technologies: Flask, Docker, GitHub Actions, AWS EC2, Gunicorn.  
 - Live Deployment: `http://<your-ec2-ip>` (replace with your instance URL)  
-- GitHub Actions Badge: ![CI/CD](https://github.com/sanyamjcloud/flask-app-ci-cd-docker-pipeline/actions/workflows/deploy.yml/badge.svg?branch=main)
-This project demonstrates real-world deployment pipelines, containerized applications, and automation workflows.
 
 ---
 
 ## Key Skills Demonstrated
-- Cloud infrastructure provisioning and management (AWS EC2, EBS, S3)  
 - CI/CD pipeline creation using GitHub Actions  
 - Containerization with Docker and deployment strategies  
 - Linux system operations and shell scripting  
-- Monitoring and reliability implementation for production systems  
+- Automation of system tasks with Python  
+- Self-healing infrastructure setup for reliability  
 
 ---
 
@@ -56,4 +47,4 @@ The purpose of this repository is to **showcase practical implementation skills*
 ---
 
 ## Topics
-`devops`, `cloud`, `aws`, `docker`, `cicd`, `monitoring`, `automation`, `linux`
+`devops`, `cloud`, `docker`, `cicd`, `automation`, `linux`
