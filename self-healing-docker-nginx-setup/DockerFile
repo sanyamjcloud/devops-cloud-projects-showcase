@@ -14,15 +14,12 @@ COPY self_heal.cron /etc/cron.d/self_heal
 RUN chmod 0644 /etc/cron.d/self_heal
 RUN crontab /etc/cron.d/self_heal
 
+# Copy entrypoint
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
 # Expose NGINX port
 EXPOSE 80
 
 # Start cron and NGINX
-#!/bin/bash
-service cron start
-nginx -g 'daemon off;'
-
-ENV DEBIAN_FRONTEND=noninteractive
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
 CMD ["/entrypoint.sh"]
