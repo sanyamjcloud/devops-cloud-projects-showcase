@@ -18,4 +18,6 @@ RUN crontab /etc/cron.d/self_heal
 EXPOSE 80
 
 # Start cron and NGINX
-CMD cron && nginx -g 'daemon off;'
+#!/bin/bash
+service cron start
+nginx -g 'daemon off;'
